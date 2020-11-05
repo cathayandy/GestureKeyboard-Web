@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './app.css';
 import ReactImage from './react.png';
 import Keyboard from './components/Keyboard/keyboard';
-import Grid from './components/Grid/Grid';
+import Grid from './components/Grid/grid';
 import io from 'socket.io-client';
 
 const App = () => {
